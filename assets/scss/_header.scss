@@ -1,0 +1,57 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo-text {
+    h3 {
+      font-family: Lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      &:before {
+        content: "";
+        background-image: url(./../assets/images/cloud-logo.svg);
+        width: 30px;
+        height: 30px;
+        left: 0px;
+        margin-left: 0px;
+        top: 0px;
+        display: inline-block;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+  li {
+    &:not(:last-child) {
+      margin-right: 27px;
+    }
+  }
+  nav {
+    a {
+      color: #2f281e;
+      font-weight: normal;
+    }
+  }
+  .btn {
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
+.header-navigation__list {
+  display: flex;
+  margin-right: 54px;
+  list-style-type: none;
+  a {
+    color: #fff;
+  }
+}

@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+header {
+  width: 100%;
+  margin-top: 61px;
+  margin-bottom: 110px;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+}
+
+.logo {
+  max-height: 20px;
+  overflow: hidden;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+body,
+input,
+button {
+  font-family: "Lato", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo-text h3 {
+  font-size: 50px;
+}
+/* .logo-text h3::before {
+  content: "";
+  background-image: url(./../assets/images/cloud-logo.svg);
+  width: 30px;
+  height: 30px;
+  left: 0px;
+  margin-left: 0px;
+  top: 0px;
+  display: inline-block;
+  background-repeat: no-repeat;
+} */
