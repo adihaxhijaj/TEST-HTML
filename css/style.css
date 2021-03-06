@@ -215,14 +215,3 @@ button {
 .logo-text h3 {
   font-size: 50px;
 }
-/* .logo-text h3::before {
-  content: "";
-  background-image: url(./../assets/images/cloud-logo.svg);
-  width: 30px;
-  height: 30px;
-  left: 0px;
-  margin-left: 0px;
-  top: 0px;
-  display: inline-block;
-  background-repeat: no-repeat;
-} */
